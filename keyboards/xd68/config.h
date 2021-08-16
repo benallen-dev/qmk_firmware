@@ -50,11 +50,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LED_CAPS_LOCK_PIN B2
 #define LED_PIN_ON_STATE 0
 
-#define BACKLIGHT_PIN F5
-#define BACKLIGHT_LEVELS 6
-#define BACKLIGHT_BREATHING
-#define BREATHING_PERIOD 6
-#define BACKLIGHT_ON_STATE 0
+// #define BACKLIGHT_PIN F5
+// #define BACKLIGHT_LEVELS 6
+// #define BACKLIGHT_BREATHING
+// #define BREATHING_PERIOD 6
+// #define BACKLIGHT_ON_STATE 0
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
@@ -107,9 +107,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_FUNCTION
 
 // ws2812 options
-#define RGB_DI_PIN F6 // pin the DI on the ws2812 is hooked-up to
-#define RGBLIGHT_ANIMATIONS // run RGB animations
-#define RGBLED_NUM 12 // number of LEDs
-#define RGBLIGHT_HUE_STEP 12 // units to step when in/decreasing hue
-#define RGBLIGHT_SAT_STEP 25 // units to step when in/decresing saturation
-#define RGBLIGHT_VAL_STEP 12 // units to step when in/decreasing value (brightness)
+// #define RGB_DI_PIN F6 // pin the DI on the ws2812 is hooked-up to
+// #define RGBLIGHT_ANIMATIONS // run RGB animations
+// #define RGBLED_NUM 12 // number of LEDs
+// #define RGBLIGHT_HUE_STEP 12 // units to step when in/decreasing hue
+// #define RGBLIGHT_SAT_STEP 25 // units to step when in/decresing saturation
+// #define RGBLIGHT_VAL_STEP 12 // units to step when in/decreasing value (brightness)
+
+#define UNICODE_SELECTED_MODES UC_LNX, UC_MAC
